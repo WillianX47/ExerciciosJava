@@ -18,20 +18,19 @@ public class Ex06 {
 		System.out.println("Digite sua idade: ");
 		idade = scan.nextInt();
 		scan.close();
-		if(idade >= 5 && idade <= 7) {
+		if(idade >= 5 && idade <= 7)
 			System.out.println("Infantil A");
-		} else if(idade >= 8 && idade <= 11) {
+		if(idade >= 8 && idade <= 11)
 			System.out.println("Infantil B");
-		} else if(idade >=12 && idade <= 13) {
+		if(idade >=12 && idade <= 13)
 			System.out.println("Juvenil A");
-		} else if(idade >= 14 && idade <= 17) {
+		if(idade >= 14 && idade <= 17)
 			System.out.println("Juvenil B");
-		} else if(idade >= 18) {
+		if(idade >= 18) 
 			System.out.println("Adulto");
-		} else if(idade > 0 && idade < 5) {
+		if(idade > 0 && idade < 5)
 			System.out.println("Muito jovem");
-		} else {
-			System.out.println("Idade invalida");
-		}
+		if(idade < 0)
+			System.out.println("Entrada invalida");
 	}
 }
