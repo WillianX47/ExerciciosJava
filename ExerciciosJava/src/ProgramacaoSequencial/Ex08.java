@@ -15,7 +15,7 @@ public class Ex08 {
 		valorImpostos = valorFabrica + ((valorFabrica*45)/100);
 		valorConsumidor = (valorFabrica + valorImpostos + valorDistribuidor);
 		
-		System.out.println("O valor para o consumidor eh: " + valorConsumidor);
+		System.out.println("O valor para o consumidor e: " + valorConsumidor);
 		
 		scan.close();
 	}
