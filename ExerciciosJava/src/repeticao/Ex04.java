@@ -79,8 +79,8 @@ public class Ex04 {
 				cont_pessoa++;
 			}
 			if(genero != 1 && genero !=2 && genero != 3)
-				System.out.println("Entrada invalida");
-		}while(cont_pessoa != 150); //Trocar este número caso queira fazer testes
+				System.out.println("Entrada de gênero inválida");
+		}while(cont_pessoa != 3); //Trocar este número caso queira fazer testes
 		
 		scan.close();
 		
