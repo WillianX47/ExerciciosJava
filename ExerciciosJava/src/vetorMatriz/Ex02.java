@@ -20,11 +20,11 @@ public class Ex02 {
 		for (int i = 0; i < 10; i++) {
 			vetor[i] = random.nextInt(6) + 1;
 			soma += vetor[i];
-			if(vetor[i] > maior) {
+			if (vetor[i] > maior) {
 				maior = vetor[i];
 				cont = 0;
 			}
-			if(vetor[i] == maior)
+			if (vetor[i] == maior)
 				cont++;
 		}
 		System.out.println("Valores sorteados: " + Arrays.toString(vetor));
