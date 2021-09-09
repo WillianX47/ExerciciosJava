@@ -4,14 +4,7 @@ public class Ex01ClasseAnimal {
 	private String nome = "";
 	private int idade = 0;
 
-	public void emitirSom(int i) {
-		if(i==1)
-			System.out.println("\nO cachorro emitiu um som!");
-		if(i==2)
-			System.out.println("\nO cavalo emitiu um som!");
-		if(i==3)
-			System.out.println("\nO bixo preguiça emitiu um som!");
-	}
+	public void emitirSom() {}
 	
 	public String getNome() {
 		return nome;

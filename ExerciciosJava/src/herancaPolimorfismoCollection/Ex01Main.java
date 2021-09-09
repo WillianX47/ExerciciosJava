@@ -16,9 +16,9 @@ public class Ex01Main {
 		Ex01ClasseCavalo cavalo = new Ex01ClasseCavalo();
 		Ex01ClassePreguica preguica = new Ex01ClassePreguica();
 		
-		cachorro.emitirSom(1);
-		cavalo.emitirSom(2);
-		preguica.emitirSom(3);
+		cachorro.emitirSom();
+		cavalo.emitirSom();
+		preguica.emitirSom();
 		
 	}
 }
