@@ -1,10 +1,8 @@
 package herancaPolimorfismoCollection;
 
-public class Ex01ClasseAnimal {
+public abstract class Ex01ClasseAnimal implements Ex01InterfaceAnimal{
 	private String nome = "";
 	private int idade = 0;
-
-	public void emitirSom() {}
 	
 	public String getNome() {
 		return nome;

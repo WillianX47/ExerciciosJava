@@ -12,13 +12,9 @@ anterior e invoque o método que emite o som de cada um de forma polimórfica, ist
 
 public class Ex01Main {
 	public static void main(String[]args) {
-		Ex01ClasseCachorro cachorro = new Ex01ClasseCachorro();
-		Ex01ClasseCavalo cavalo = new Ex01ClasseCavalo();
-		Ex01ClassePreguica preguica = new Ex01ClassePreguica();
-		
-		cachorro.emitirSom();
-		cavalo.emitirSom();
-		preguica.emitirSom();
-		
+		Ex01ClasseTestaAnimal animal = new Ex01ClasseTestaAnimal();
+		animal.testaAnimal(new Ex01ClassePreguica());
+		animal.testaAnimal(new Ex01ClasseCachorro());
+		animal.testaAnimal(new Ex01ClasseCavalo());
 	}
 }

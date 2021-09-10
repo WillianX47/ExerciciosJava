@@ -68,6 +68,10 @@ public class Ex02Main {
 							+ produto.get(i).getPreco());
 				}
 				break;
+			case -1:
+				System.out.println("\nEncerrando programa");
+				break;
+			
 			default:
 				System.out.println("Escolha inexistente");
 			}
