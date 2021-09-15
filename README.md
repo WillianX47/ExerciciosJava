@@ -1,4 +1,3 @@
-#ExerciciosJava
 Lista de exercícios feitas no bootcamp Generation
 
 Conceitos aplicados:
